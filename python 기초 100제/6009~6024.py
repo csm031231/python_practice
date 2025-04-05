@@ -23,3 +23,31 @@ a = input()
 b = input()
 print(b)
 print(a)
+
+#6014
+a = input()
+a = float(a)
+print(a)
+print(a)
+print(a)
+
+#6015
+a, b = input().split()
+a=int(a)
+b=int(b)
+print(a)
+print(b)
+
+#6016
+a, b = input().split()
+print(b, a)
+
+#6017
+s = input()
+print(s, s, s)  #공백으로 구분해 한 줄로 출력한다
+
+#6018
+a, b = input().split(':')
+print(a, b, sep=':')
+
+#6019
